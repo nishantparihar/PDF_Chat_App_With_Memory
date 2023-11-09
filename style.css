@@ -1,0 +1,23 @@
+section[data-testid="stSidebar"] div.stButton button {
+    width: 100%;
+    border: 2px solid #d9d9e3;
+    background-color: #050509;
+    color: white;
+}
+
+section[data-testid="stSidebar"] div.stButton button:active{
+    background-color: #343541;
+}
+
+section[data-testid="stSidebar"] div.stButton button:hover{
+    background-color: #2A2B32;
+}
+
+section[data-testid="stSidebar"]{
+    background-color: #090905;
+}
+
+section[data-testid="stSidebar"] div.stMarkdown h1, h2, h3, h4 {
+    width: 100%;
+    color: white;
+}
