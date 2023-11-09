@@ -9,3 +9,4 @@ pdf2image
 openai==0.28.1
 tiktoken==0.5.1
 pyodbc
+sqlalchemy
