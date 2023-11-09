@@ -76,8 +76,7 @@ def main():
     if "title" not in st.session_state:
         st.session_state.title = "New Chat"
 
-    st.title('🤗💬 LLM Chat App')
-    st.header("Chat with PDF 💬")
+    st.title('🤗💬 LLM Chat with PDF App')
 
     tab1, tab2, tab3 = st.tabs(["Try it!!", "How to??", "About"])
 
