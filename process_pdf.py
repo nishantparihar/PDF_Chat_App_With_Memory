@@ -11,7 +11,7 @@ from langchain.vectorstores import FAISS
 
 import pytesseract
 from pdf2image import convert_from_bytes
-pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
 @st.cache_data
 def get_text_chunks(pdf):
